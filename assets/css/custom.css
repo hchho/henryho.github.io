@@ -1,0 +1,45 @@
+@import url(bootstrap.css);
+
+.background::after {
+    content: "";
+    background: url('../../images/bg.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar a {
+        color: black;
+    }
+
+    .nav > li > a:hover{
+        background-color:#FCC;
+        color: white;
+    } 
+    
+    .nav > li > a:focus {
+        background-color:#FFF;
+        color: #FCC;
+    }
+    
+    #thumbnails {
+        text-align: center;
+    }
+    
+    
+}
