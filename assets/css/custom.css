@@ -29,7 +29,7 @@
 
     .nav > li > a:hover{
         background-color:#FCC;
-        color: white;
+        color: black;
     } 
 
     .nav > li > a:focus {
@@ -49,5 +49,11 @@
         background-color: white;
         margin-top: 20px;
     }
+
+    .navbar {
+        -webkit-border-radius: 0 !important;
+           -moz-border-radius: 0 !important;
+                border-radius: 0 !important;
+      }
 
 }
