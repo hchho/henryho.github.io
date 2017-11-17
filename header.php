@@ -11,7 +11,7 @@ $link_contact = $root . "/contact.php";
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Henry Ho's Webpage</title>
+    <title>HAS Bruhs</title>
     <link rel="stylesheet" href="/assets/css/custom.css" />
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
@@ -34,7 +34,7 @@ $link_contact = $root . "/contact.php";
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Dream Team</a>
+                <a class="navbar-brand" href="index.html">HAS Bruhs</a>
             </div>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
