@@ -6,7 +6,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/header.php');
         <img src="../images/steve.jpeg" class="img-circle img-responsive text-center" alt="Steve" />
         <section class="description">
             <P>
-                Steve is a BCIT CST student. Steve enjoys exercising and craft beer. Steve discovered his passion for coding while taking part-time classes, and is now looking forward to a career in programming. Steve is interested in technical programming and anything fun in coding.
+                Steve has a B.Sc. in molecular biology and biochemistry from SFU, and is currently pursueing a diploma in Computer Systems Technology at BCIT. Steve believes programming is a strong skill to have in the future and wants to further his education.  He chose BCIT to study programming because he wanted a practical hands-on education.  Steve enjoys learning new technologies, excercising, and is a craft beer connoisseur.
             </P>
             <P class="text-center">
                 <a href="../projects/projects.php">Personal Projects
