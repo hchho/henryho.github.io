@@ -20,4 +20,4 @@ include($_SERVER['DOCUMENT_ROOT'] . '/header.php');
     </section>
 </div>
 
-<?include('footer.php');?>
+<?include($_SERVER['DOCUMENT_ROOT'] .'/footer.php');?>

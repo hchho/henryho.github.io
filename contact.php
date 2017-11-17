@@ -6,4 +6,4 @@ include($_SERVER['DOCUMENT_ROOT'] . '/header.php');
 <h1 class="text-center">Contact Us</h1>
     </div>
 
-    <?include('footer.php');?>
+    <?include($_SERVER['DOCUMENT_ROOT'] .'/footer.php');?>

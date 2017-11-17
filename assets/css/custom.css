@@ -48,12 +48,17 @@
         padding: 20px 20px 20px 20px;
         background-color: white;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .navbar {
         -webkit-border-radius: 0 !important;
            -moz-border-radius: 0 !important;
                 border-radius: 0 !important;
-      }
+    }
+
+    #project-links {
+        text-align: center;
+    }
 
 }
