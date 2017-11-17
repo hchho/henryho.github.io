@@ -1,3 +1,10 @@
+<?php
+$root = getenv('HTTP_HOST');
+$link_home = $root . "/index.php";
+$link_projects = $root . "/projects/projects.php";
+$link_about = $root . "/about/about.php";
+$link_contact = $root . "/contact.php";
+?>
 <!DOCTYPE html>
 <html>
 
@@ -5,9 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Henry Ho's Webpage</title>
-    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="/assets/css/custom.css" />
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
@@ -34,40 +41,19 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="index.html">Home</a>
+                    <?php echo "<a href='" . $link_home . "'>Home</a>"; ?>
                 </li>
                 <li>
-                    <a href="projects/projects.html">Projects</a>
+                    <?php echo "<a href='" . $link_projects . "'>Projects</a>"; ?>
                 </li>
                 <li>
-                    <a href="about/about.html">About</a>
+                    <?php echo "<a href='" . $link_about . "'>About</a>"; ?>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <?php echo "<a href='" . $link_contact . "'>Contact</a>"; ?>
                 </li>
             </ul>
 
         </div>
         <!-- /.navbar-collapse -->
     </nav>
-    <h1 class="text-center">H.A.S. Bruhs</h1>
-    <article class="thumbnails">
-        <div class="col-sm-4">
-            <img src="images/alex.jpeg" class="img-circle img-responsive" alt="Alex Lee" />
-        </div>
-        <div class="col-sm-4">
-            <a href="about/henry.html">
-                <img src="images/henry.jpeg" class="img-circle img-responsive" alt="Henry Ho" />
-            </a>
-        </div>
-        <div class="col-sm-4">
-            <img src="images/steve.jpeg" class="img-circle img-responsive" alt="Steve Cho" />
-        </div>
-
-    </article>
-
-    <footer>
-    </footer>
-</body>
-
-</html>
