@@ -1,5 +1,5 @@
 <?php
-$root = getenv('HTTP_HOST');
+$root = "";
 $link_home = $root . "/index.php";
 $link_projects = $root . "/projects/projects.php";
 $link_about = $root . "/about/about.php";
