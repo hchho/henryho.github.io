@@ -29,10 +29,14 @@ include($_SERVER['DOCUMENT_ROOT'] . '/header.php');
             <h2 class="text-center">Experiences</h2>
             <h3 class="text-center">2007-2012</h3>
             <P>
-            Before Henry was a code wrangler, he attended University of British Columbia for his undergraduate studies in Physics. 
-            He worked as a Publisher Editor for Perspectives UBC magazine where he helped design their bi-monthly publications. Henry also worked as a web manager for World Vision UBC where he created promotional material and managed web content. <br />
-            Henry then went on to work as a student development assistant for UBC's School of Kinesiology where he collaborated with faculty members to design and to create material for students and staff. <br/>
+            Before Henry was a code wrangler, he attended University of British Columbia for his undergraduate studies in Physics and Education. 
+            He worked as a Publisher Editor for Perspectives UBC magazine where he helped design their bi-monthly publications. Henry also worked as a web manager for World Vision UBC where he created promotional material and managed web content. 
+            Henry then went on to work as a student development assistant for UBC's School of Kinesiology where he collaborated with faculty members to design and to create material for students and staff. 
             Examples of Henry's work are available in the Projects section.
+            </P>
+            <h3 class="text-cetner">2013-2017</h3>
+            <P>
+            Following his graduation, Henry worked as an educator at Collingwood school. Henry developed and taught information 
             </P>
         </section>
     </div>
