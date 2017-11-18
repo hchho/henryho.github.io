@@ -1,16 +1,18 @@
 @import url(bootstrap.css);
 
-.background::after {
-    content: "";
-    background: url('../../images/bg.jpg');
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -2;   
+body, html {
+    min-height: 100%;
 }
+
+body {
+    background: url('../../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    min-height: 100%;
+}
+
 
 @media (min-width: 768px) {
     .navbar .navbar-nav {
@@ -44,7 +46,7 @@ img {
     max-width: 200px;
 }
 
-.description {
+.description, .info {
     padding: 20px 20px 20px 20px;
     background-color: white;
     margin-top: 20px;
@@ -69,6 +71,7 @@ img {
 Timeline CSS style from George Martsoukos
 https://webdesign.tutsplus.com/tutorials/building-a-vertical-timeline-with-css-and-a-touch-of-javascript--cms-26528
 */
+/*
 *,
 *::before,
 *::after {
@@ -76,43 +79,51 @@ https://webdesign.tutsplus.com/tutorials/building-a-vertical-timeline-with-css-a
   padding: 0;
   box-sizing: border-box;
 }
+*/
 
-/*body {
+/*
+body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
   background: #456990;
   color: #fff;
   overflow-x: hidden;
   padding-bottom: 50px;
 
-}*/ 
+} 
+*/
  /* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/*
 .intro {
-  /*background: #F45B69;*/
+  background: #F45B69;
   background: white;
   padding: 100px 0;
 }
+*/
 
 .overview {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
+/*  width: 90%;*/
+/*  max-width: 1200px;*/
+/*  margin: 0 auto;*/
   text-align: center;
 }
 
+/*
 h1 {
   font-size: 2.5rem;
 }
+*/
 
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-  /*background: #456990;*/
+  background: #e97162;
   background: white;
   padding: 50px 0;
+    color: floralwhite;
 }
 
 .timeline ul li {
@@ -121,7 +132,8 @@ h1 {
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: #CCC;
+/*  background: #004165;*/
+    background: lightgrey;
 }
 
 .timeline ul li::after {
@@ -140,9 +152,8 @@ h1 {
   position: relative;
   bottom: 0;
   width: 400px;
-  padding: 15px;
-  /*background: #F45B69;*/
-  background: yellow;
+  padding: 15px;    
+  background: #14a819;
 }
 
 .timeline ul li div::before {
@@ -161,9 +172,7 @@ h1 {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  /*border-color: transparent #F45B69 transparent transparent;*/
-
-  border-color: transparent yellow transparent transparent;
+  border-color: transparent #14a819 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -173,9 +182,7 @@ h1 {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  /*border-color: transparent transparent transparent #F45B69;*/
-
-  border-color: transparent transparent transparent yellow;
+  border-color: transparent transparent transparent #14a819;
 }
 
 time {
@@ -194,8 +201,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  /*background: #F45B69;*/
-  background: yellow;
+  background: #14a819;
 }
 
 .timeline ul li div {
@@ -224,7 +230,7 @@ time {
 
 @media screen and (max-width: 900px) {
   .timeline ul li div {
-    width: 250px;
+    width: 225px;
   }
   .timeline ul li:nth-child(even) div {
     left: -289px;
@@ -236,16 +242,18 @@ time {
   .timeline ul li {
     margin-left: 20px;
   }
+/*
   .timeline ul li div {
     width: calc(100vw - 91px);
   }
+*/
   .timeline ul li:nth-child(even) div {
     left: 45px;
   }
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #F45B69 transparent transparent;
+    border-color: transparent #f442bf transparent transparent;
   }
 }
 

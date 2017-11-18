@@ -37,11 +37,13 @@ $(document).ready(function() {
 })();
 </script>
 
-
-<div class="info container">
+<div class="container">
+<div class="info">
+ <section class="intro">
+  <div class="overview">
     <h1 class="text-center">This is Henry.</h1>
-    <img src="../images/henry.jpeg" class="img-circle img-responsive text-center" alt="Henry Ho" />
-    <section class="description">
+      Henry enjoys programming, reading, eating, and exercising.
+          <section class="description">
         <div class="row text-center">
             <div class="col-sm-2 col-sm-offset-3">
                 <a href="../projects/projects.php">Personal Projects
@@ -56,81 +58,64 @@ $(document).ready(function() {
                 <a href="http://github.com/hchho" target="_blank">GitHub</a>
             </div>
         </div>
-        <h2 class="text-center">Overview</h2>
-        <P>
-            Henry is an aspiring programmer currently studying at British Columbia Institute of Technology's Computer Systems Technology program. Henry enjoys playing badminton and sampling good
-            food. Henry's hobbies include playing the piano, playing guitar, reading, and cooking. Henry is interested in Virtual Reality, cloud computing, and artificial
-            intelligence.
-        </P>
-        <h2 class="text-center">Experiences</h2>
-        <h3 class="text-center">2007-2012</h3>
-        <P>
-            Before Henry was a code wrangler, he attended University of British Columbia for his undergraduate studies in Physics and Education. 
-            He worked as a Publisher Editor for Perspectives UBC magazine where he helped design their bi-monthly publications. Henry also worked as a web manager for World Vision UBC where he created promotional material and managed web content. 
-            Henry then went on to work as a student development assistant for UBC's School of Kinesiology where he collaborated with faculty members to design and to create material for students and staff. 
-            Examples of Henry's work are available in the Projects section.
-        </P>
-        <h3 class="text-center">2013-2017</h3>
-        <P>
-            Following his graduation, Henry worked as a high school educator at Collingwood Secondary school in West Vancouver. Henry helped develop and teach information technology curriculum for junior grades. Henry was also a mentor for the Collingwood VEX robotics team, and was invited to present at a robotics workshop hosted by  Confucius Institute in School District 43.
-        </P>
-        <h3 class="text-center">2017-Present</h3>
-        <P>
-            Henry is currently a student in BCIT's Computer Systems Technology program. Henry continues to work with youth and develop courses to help them understand computational thinking. 
-        </P>
-        
-    </section>
-
-<!-- <section class="intro">
-  <div class="overview">
-    <h1>Henry's Timeline</h1>
+            </section>
+    <img src="../images/henry.jpeg" class="img-circle img-responsive text-center" alt="Henry Ho" />
   </div>
 </section>
 
 <section class="timeline">
   <ul>
-    <li>
+      <li>
       <div>
-        <time>1934</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+        <time>2007</time> Began studying Physics at the University of British Columbia. 
       </div>
     </li>
     <li>
       <div>
-        <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+        <time>2008</time> Started working for Perspectives UBC, a bi-lingual student newspaper from UBC. Started to typeset feature articles. 
       </div>
     </li>
     <li>
       <div>
-        <time>1940</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+        <time>2009</time> Worked as web content creator and manager for World Vision UBC. Created video and digital promotional material for fundraising events.
       </div>
     </li>
     <li>
       <div>
-        <time>1943</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+        <time>2010</time> Promoted to Publishing Director for Perspectives Magazine. Overlooked typesetting and created a new logo for the magazine.
       </div>
     </li>
     <li>
       <div>
-        <time>1946</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+        <time>2011</time> Hired as student development assistant at UBC's School of Kinesiology. Collaborated with faculty to create material for students and staff.
       </div>
     </li>
     <li>
       <div>
-        <time>1956</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+        <time>2012</time> Graduated with a Bachelors in Science and Education from UBC.
       </div>
     </li>
     <li>
       <div>
-        <time>1957</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+        <time>2013</time> Worked as a high school educator at Collingwood Secondary in West Vancouver. Co-developed robotics curriculum for junior students and mentored their VEX robotics team.
       </div>
     </li>
-
+    <li>
+      <div>
+        <time>2016</time> Presented at a robotics workshop hosted by Confucius Institute from School District 43. Began creating content to help children develop computational thinking.
+      </div>
+    </li>
+<li>
+      <div>
+        <time>Present</time> Enrolled in BCIT's Computer Systems Technology Diploma program. Continues to help educate and develop educational material for children in partnership with the Coquitlam Library and Confucius Institute.
+      </div>
+    </li>
   </ul>
-</section> -->
+</section> 
 
 
 </div>
 
+</div>
 
-
-<?include($_SERVER['DOCUMENT_ROOT'] .'/footer.php');?>
+<?php include($_SERVER['DOCUMENT_ROOT'] .'/footer.php');?>

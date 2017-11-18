@@ -1,7 +1,7 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/header.php');
 ?>
-<div class="info">
+<div class="info container">
         <section class="team-projects">
             <h1 class="text-center">Team Projects</h1>
         </section>

@@ -17,13 +17,11 @@ $link_contact = $root . "/contact.php";
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
 </head>
 
 <body>
 
-
-    <div class="background">
-    </div>
     <nav class="navbar navbar-inverse" role="navigation">
         <div class="container-fluid visible-xs">
             <!-- Brand and toggle get grouped for better mobile display -->

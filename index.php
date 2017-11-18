@@ -1,6 +1,7 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/header.php');
 ?>
+<div class="container description">
 <h1 class="text-center">H.A.S. Bruhs</h1>
 <article class="thumbnails">
 	<div class="col-sm-4">
@@ -20,5 +21,5 @@ include($_SERVER['DOCUMENT_ROOT'] . '/header.php');
 	</div>
 
 </article>
-
+</div>
 <?include($_SERVER['DOCUMENT_ROOT'] .'/footer.php');?>

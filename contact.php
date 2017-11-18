@@ -2,7 +2,7 @@
 include($_SERVER['DOCUMENT_ROOT'] . '/header.php');
 ?>
 
-<div class="info">
+<div class="info container">
 <h1 class="text-center">Contact Us</h1>
     </div>
 
