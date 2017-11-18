@@ -15,6 +15,7 @@ $link_contact = $root . "/contact.php";
     <link rel="stylesheet" href="/assets/css/custom.css" />
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     
@@ -32,7 +33,7 @@ $link_contact = $root . "/contact.php";
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">HAS Bruhs</a>
+                <a class="navbar-brand" href="/index.php">H.A.S. Bruhs</a>
             </div>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
