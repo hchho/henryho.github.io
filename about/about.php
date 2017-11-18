@@ -12,16 +12,17 @@ include($_SERVER['DOCUMENT_ROOT'] . '/header.php');
         The team consists of three members:<P/>
         <section class="thumbnails">
             <div class="col-sm-4">
+                <a href="/about/henry.php">
+                    <img src="/images/henry.jpeg" class="img-circle img-responsive" alt="Henry Ho" /><br />
+                    Henry Ho
+                </a>
+                
+            </div>
+            <div class="col-sm-4">
                 <a href="/about/alex.php">
 
                     <img src="/images/alex.jpeg" class="img-circle img-responsive" alt="Alex Lee" /><br/>
                     Alex Lee
-                </a>
-            </div>
-            <div class="col-sm-4">
-                <a href="/about/henry.php">
-                    <img src="/images/henry.jpeg" class="img-circle img-responsive" alt="Henry Ho" /><br />
-                    Henry Ho
                 </a>
             </div>
             <div class="col-sm-4">
