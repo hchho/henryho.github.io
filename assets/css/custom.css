@@ -71,50 +71,14 @@ img {
 Timeline CSS style from George Martsoukos
 https://webdesign.tutsplus.com/tutorials/building-a-vertical-timeline-with-css-and-a-touch-of-javascript--cms-26528
 */
-/*
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-*/
 
-/*
-body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #456990;
-  color: #fff;
-  overflow-x: hidden;
-  padding-bottom: 50px;
-
-} 
-*/
  /* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/*
-.intro {
-  background: #F45B69;
-  background: white;
-  padding: 100px 0;
-}
-*/
 
 .overview {
-/*  width: 90%;*/
-/*  max-width: 1200px;*/
-/*  margin: 0 auto;*/
   text-align: center;
 }
-
-/*
-h1 {
-  font-size: 2.5rem;
-}
-*/
-
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -132,7 +96,6 @@ h1 {
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-/*  background: #004165;*/
     background: lightgrey;
 }
 
