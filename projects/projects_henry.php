@@ -8,11 +8,8 @@ $dest = "/files/henry/";
 echo $show;
 ?>
 <div class="info container">
-  <section class="team-projects">
-    <h1 class="text-center">Team Projects</h1>
-  </section>
+  <a href="projects.php">Team Projects</a> &gt; Henry's Projects
   <section class="henry-projects">
-    <h1 class="text-center">Henry's Projects</h1>
     <div class="row text-center">
       <div class="col-sm-offset-3 col-sm-6">
         <div class="col-sm-3">
@@ -37,41 +34,64 @@ echo $show;
         </div>
       </div>
     </div>
+    <div id="main-content">
+      <section class="col-sm-offset-2 col-sm-8">
+        <h2 class="text-center">Welcome to Henry's project page</h2>
+        <P>
+          Feel free to click on the links above to browse through my projects. My projects span from 2007 to current. If you have any questions about my projects, please feel free to contact me via LinkedIn.
+        </P>
+      </section>
+    </div>
     <div id="design-content">
+    <section class="col-sm-offset-2 col-sm-8">
+    <h2 class="text-center">Design</h2>
       <?php 
       echo "<a href='".$dest."liveinforliteracy_hiring.jpg'>"; 
       echo "<img src='".$dest."liveinforliteracy_hiring.jpg' alt='sample poster' />";
       echo "</a>";
       ?>
+      </section>
     </div>
     <div id="anim-content" class="text-center">
-      <div id="change-for-change text-c">
-        <h2>Change for Change</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/a-y8uwJQllY" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div id="thirty-hr-famine">
-        <h2>30 Hour Famine</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/NMMAeNvOKH4" frameborder="0" allowfullscreen></iframe>
-      </div>
+      <section class="col-sm-offset-2 col-sm-8">
+        <h2 class="text-center">Animation</h2>
+        <p class="text-left">
+          Below are a series of videos I created for World Vision UBC. I used Adobe Premiere and Aftereffects, respectively. I halted video editing after these two projects because school work at the time became a priority.
+        </p>
+        <div id="change-for-change">
+          <h3>Change for Change</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/a-y8uwJQllY" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div id="thirty-hr-famine">
+          <h3>30 Hour Famine</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/NMMAeNvOKH4" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </section>
     </div>
     <div id="code-content" class="content">
       dat code
     </div>
     <div id="edu-content" class="content">
       <section class="col-sm-offset-2 col-sm-8">
-        <h2 class="text-center">I teach.</h2>
-        <h3 class="text-center">VEX IQ</h3>
+      <h2 class="text-center">Education</h2>
         <div id="vex">
-        <img class="text-center" src="/iamges/vex-iq.png" />
-          I made a Youtube tutorial channel for VEX IQ Robotics so my students can use them as a guide in class. I focused on breaking down the program components into closely related sections. The feedback was especially great for students who were ahead and students who needed extra time to digest material.
+          <h3 class="text-center">VEX IQ</h3>
+          <img class="text-center" src="/images/vex-iq.png" alt="VEX IQ"/>
+          <P>
+            I made a Youtube tutorial channel for VEX IQ Robotics so my students can use them as a guide in class. I focused on breaking down the program components into closely related sections. The feedback was especially great for students who were ahead and students who needed extra time to digest material. Visit the <a href="https://www.vexrobotics.com/vexiq" target="_blank">VEX IQ</a> website.
+          </P>
           <P class="text-center">
             <a href="https://www.youtube.com/watch?v=CpDXgjFcnRs&list=PL7RN9f22_gasw2How_Xy42PzG8yysG_IX" target="_blank">VEX IQ Tutorials</a> 
           </P>
         </div>
         <div id="Scratch">
-          I made a Youtube tutorial channel for VEX IQ Robotics so my students can use them as a guide in class. I focused on breaking down the program components into closely related sections. The feedback was especially great for students who were ahead and students who needed extra time to digest material.
+          <h3 class="text-center">Scratch</h3>
+          <img class="text-center" src="/images/scratch.jpeg" alt="Scatch"/>
+          <P>
+            I developed a Scratch course to teach young children computational thinking. I am currently implementing and continually developing the topics. I decided to introduce the concepts of conditional statements, arrays, loops as interactive games.
+          </P>
           <P class="text-center">
-            <a href="https://www.youtube.com/watch?v=CpDXgjFcnRs&list=PL7RN9f22_gasw2How_Xy42PzG8yysG_IX" target="_blank">VEX IQ Tutorials</a> 
+            <a href="https://scratch.mit.edu/users/hho0203/" target="_blank">Scratch Profile</a> 
           </P>
         </div>
       </section>
@@ -80,14 +100,16 @@ echo $show;
 </div>
 <script>
   $(function() {    
+    $("#main-content").show();
     $("#design-content").hide();
-    $("#anim-content").show();
+    $("#anim-content").hide();
     $("#edu-content").hide();
     $("#code-content").hide();}
 
     )
 
   $("#animation").click(function(){
+    $("#main-content").hide();
     $("#design-content").hide();
     $("#anim-content").show();
     $("#edu-content").hide();
@@ -99,6 +121,7 @@ echo $show;
     $("#edu-content").hide();
     $("#anim-content").hide();
     $("#code-content").hide();
+    $("#main-content").hide();
   });
 
   $("#code").click(function(){
@@ -106,6 +129,7 @@ echo $show;
     $("#edu-content").hide();
     $("#anim-content").hide();
     $("#code-content").show();
+    $("#main-content").hide();
   });
 
   $("#education").click(function(){
@@ -113,6 +137,7 @@ echo $show;
     $("#edu-content").show();
     $("#anim-content").hide();
     $("#code-content").hide();
+    $("#main-content").hide();
   });
 
 </script>

@@ -6,7 +6,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/header.php');
             <h1 class="text-center">Team Projects</h1>
         </section>
         <section class="henry-projects">
-            <h1 class="text-center">Henry's Projects</h1>
+            <a href="projects_henry.php">Henry's Projects</a>
         </section>
     </div>
 
