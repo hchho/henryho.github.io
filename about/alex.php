@@ -2,6 +2,7 @@
 include($_SERVER['DOCUMENT_ROOT'] . '/header.php');
 ?>
 <div class="info container">
+<a href="about.php">About</a> &gt; Alex
         <h1 class="text-center">This is Alex.</h1>
         <img src="../images/alex.jpeg" class="img-circle img-responsive text-center" alt="Alex Lee" />
         <section class="description">

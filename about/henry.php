@@ -38,7 +38,9 @@ $(document).ready(function() {
 </script>
 
 <div class="container">
+
 <div class="info">
+<a href="about.php">About</a> &gt; Henry
  <section class="intro">
   <div class="overview">
     <h1 class="text-center">This is Henry.</h1>
@@ -46,7 +48,7 @@ $(document).ready(function() {
           <section class="description">
         <div class="row text-center">
             <div class="col-sm-2 col-sm-offset-3">
-                <a href="../projects/projects.php">Personal Projects
+                <a href="../projects/projects_henry.php">Personal Projects
                 </a>
             </div>
             <div class="col-sm-2">
