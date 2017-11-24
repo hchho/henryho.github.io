@@ -69,7 +69,16 @@ echo $show;
       </section>
     </div>
     <div id="code-content" class="content">
-      dat code
+      <section class="col-sm-offset-2 col-sm-8">
+      <h2 class="text-center">Code</h2>
+      <div id="demo">
+      <h3 class="text-center">Ruby on Rails (Work in Progress)</h3>
+      <iframe frameborder=0 src="http://www.google.com"></iframe>
+      <P>
+      This was my first individual venture with Ruby on Rails. The purpose was to streamline the process of finding Science demonstrations for educators. Users can favourite and rate demonstrations. I am currently working on creating an efficient way to hash the demos.
+      </P>
+      </div>
+      </section>
     </div>
     <div id="edu-content" class="content">
       <section class="col-sm-offset-2 col-sm-8">
