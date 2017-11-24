@@ -45,8 +45,13 @@ $link_contact = $root . "/contact.php";
                 <li>
                     <?php echo "<a href='" . $link_projects . "'>Projects</a>"; ?>
                 </li>
-                <li>
-                    <?php echo "<a href='" . $link_about . "'>About</a>"; ?>
+                <li class="dropdown">
+                    <?php echo "<a class='dropdown-toggle' data-toggle='dropdown' href='" . $link_about . "'>About <span class='caret'></span></a>"; ?>
+                    <ul class="dropdown-menu">
+          <li><a href="/about/henry.php">Henry Ho</a></li>
+          <li><a href="/about/alex.php">Alex Lee</a></li>
+          <li><a href="/about/steve.php">Steve Cho</a></li>
+        </ul>
                 </li>
                 <li>
                     <?php echo "<a href='" . $link_contact . "'>Contact</a>"; ?>
