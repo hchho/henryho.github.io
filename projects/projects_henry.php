@@ -80,6 +80,18 @@ echo $show;
       This was my first individual venture with Ruby on Rails. The purpose was to streamline the process of finding Science demonstrations for educators. Users can favourite and rate demonstrations. I am currently working on creating an efficient way to hash the demos.
       </P>
       </div>
+      <div id="gameoflife">
+      <h3 class="text-center">JAVA: Game of Life</h3>
+      <P>
+      This is the game of life.
+      </P>
+      <applet
+codebase="/files/henry/" 
+archive="gameoflife.jar" 
+code="ca.bcit.comp2526.a2a/Main.class"  
+width=550 height=300>
+</applet>
+      </div>
       </section>
     </div>
     <div id="edu-content" class="content">
