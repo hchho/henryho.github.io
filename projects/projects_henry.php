@@ -85,12 +85,8 @@ echo $show;
       <P>
       This is the game of life.
       </P>
-      <applet
-codebase="/files/henry/" 
-archive="gameoflife.jar" 
-code="ca.bcit.comp2526.a2a/Main.class"  
-width=550 height=300>
-</applet>
+      <object codebase="/files/henry/" archive="gameoflife.jar" code="Main.class" width=550 height=300>
+</object>
       </div>
       </section>
     </div>
