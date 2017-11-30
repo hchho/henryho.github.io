@@ -1,0 +1,52 @@
+body, html, main, div, h1, p {
+    /* important */
+    height: 100%;
+    margin: 0;
+}
+
+div {
+    padding: 10px;
+}
+
+h1#title {
+    /* text-align: center; */
+    /* padding: -10px; */
+    /* position: absolute; */
+    top: 40%;
+    font-size: 80px;
+}
+.cd-fixed-bg {
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+ 
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/bg.jpeg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../images/bg2.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../images/bg.jpeg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../images/bg.jpeg");
+}
+
+.cd-scrolling-bg {
+    height: 100%;
+    min-height: 100%;
+}
+
+.cd-color-1 {
+    background-color: white;
+}
+
+.cd-color-2 {
+    background-color: whitesmoke;
+}
