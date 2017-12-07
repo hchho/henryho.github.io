@@ -1,38 +1,86 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>Test page</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/custom.css" />
-    <script src="https://raw.githubusercontent.com/jquery-backstretch/jquery-backstretch/master/jquery.backstretch.min.js"></script>
-</head>
+    <head>
+        <title>Test page</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <script src="https://raw.githubusercontent.com/jquery-backstretch/jquery-backstretch/master/jquery.backstretch.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    </head>
 
-<body>
-    <main>
-        <div class="cd-fixed-bg cd-bg-1">
-            <h1 class="col-sm-offset-4 col-sm-4 text-center" id="title">Henry Ho</h1>
-        </div>
-        <div class="cd-scrolling-bg cd-color-1">
-            <div class="cd-container">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur
-                    autem laborum fuga quas ipsam doloribus sequi...
-                </p>
+    <body>
+        
+        <main>
+            <div class="section cd-fixed-bg cd-bg-1">
+                <h1 class="col-sm-offset-4 col-sm-4 text-center" id="title">Henry Ho</h1>
             </div>
-        </div>
-        <div class="cd-fixed-bg cd-bg-2">
-            <h1>Overview</h1>
-        </div>
-        <div class="cd-scrolling-bg cd-color-2">
-            <div class="cd-container">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur
-                    autem laborum fuga quas ipsam doloribus sequi...
-                </p>
+            <div class="section cd-scrolling-bg cd-color-1">
+                <div class="cd-container" id="about">
+                    <h1 class="text-center" id="title">About</h1>
+                    <section class="timeline">
+                        <ul>
+                            <li>
+                                <div>
+                                    <time>2007</time> Began studying Physics at the University of British Columbia. 
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <time>2008</time> Started working for Perspectives UBC, a bi-lingual student newspaper from UBC. Started to typeset feature articles. 
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <time>2009</time> Worked as web content creator and manager for World Vision UBC. Created video and digital promotional material for fundraising events.
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <time>2010</time> Promoted to Publishing Director for Perspectives Magazine. Overlooked typesetting and created a new logo for the magazine.
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <time>2011</time> Hired as student development assistant at UBC's School of Kinesiology. Collaborated with faculty to create material for students and staff.
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <time>2012</time> Graduated with a Bachelors in Science and Education from UBC.
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <time>2013</time> Worked as a high school educator at Collingwood Secondary in West Vancouver. Co-developed robotics curriculum for junior students and mentored their VEX robotics team.
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <time>2016</time> Presented at a robotics workshop hosted by Confucius Institute from School District 43. Began creating content to help children develop computational thinking.
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <time>Present</time> Enrolled in BCIT's Computer Systems Technology Diploma program. Continues to help educate and develop educational material for children in partnership with the Coquitlam Library and Confucius Institute.
+                                </div>
+                            </li>
+                        </ul>
+                    </section> 
+                </div>
             </div>
-        </div>
-    </main>
-</body>
-
+            <div class="section cd-fixed-bg cd-bg-2">
+                <h1>Overview</h1>
+            </div>
+            <div class="cd-scrolling-bg cd-color-2">
+                <div class="section cd-container">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur
+                        autem laborum fuga quas ipsam doloribus sequi...
+                    </p>
+                </div>
+            </div>
+        </main>
+    </body>
+<script src="js/timeline.js"></script>
 </html>
