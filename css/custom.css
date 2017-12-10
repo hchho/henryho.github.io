@@ -100,3 +100,16 @@ img#profile {
 .cd-color-2 {
     background-color: #CFD8DC;
 }
+
+ img[alt="Henry's pic"] {
+   -webkit-filter: grayscale(60%);
+   -moz-filter: grayscale(60%);
+   filter: grayscale(60%);
+   transition: all 0.5s ease;
+ }
+
+ img[alt="Henry's pic"]:hover {
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+ }

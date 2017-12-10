@@ -7,6 +7,19 @@
         <link rel="stylesheet" type="text/css" href="css/custom.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+            $(function() {
+              $("#profile").hover(
+                  function() {
+                     $("#profile").removeClass("gray"); 
+                    
+                  },
+                  function() {
+                     $("#profile").addClass("gray");  
+                  }
+                )
+            });
+        </script>
     </head>
 
     <body>
@@ -24,7 +37,7 @@
                     <P>
                         I am a student currently studying Computer Systems Technolgy at BCIT. I have B.Sc in Physics, and B.Ed from UBC. Before jumping into the tech industry, I was a high school teacher for four years where I taught Science, Robotics, and Information Technology. I continue to devote my spare time to educate young children in camps where I help develop curriculum on computational thinking.
                     </P>
-                    <img src="images/henry.jpeg" class="img-circle img-responsive" alt="Henry's pic" id="profile"/>
+                    <img src="images/henry.jpeg" class="img-circle img-responsive gray" alt="Henry's pic" id="profile"/>
                 </div>
             </div>
             <div class="section cd-fixed-bg cd-bg-2">
