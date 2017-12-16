@@ -1,15 +1,24 @@
 body, html, main {
     /* important */
     height: 100%;
-/*    margin: 0;*/
     color: #212121;
-/*    padding: 0px;*/
 }
 
 div {
     min-height: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#first, #second {
+    min-height: 100%;
+}
+
+#third {
+    min-height: 60%;
+}
+#fourth {
+    min-height: 30%;
 }
 
 div#title {
@@ -28,7 +37,7 @@ h1 {
 }
 
 h4 {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 }
 
 p {
@@ -61,7 +70,7 @@ img#profile {
     }
     
     h4 {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 }
 
@@ -117,7 +126,13 @@ img#profile {
  }
 
 #contact a {
-    font-size: 10vw;
+    font-size: 8vw;
+    color: #757575;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color: #FFF;
 }
 
 #contact div {
