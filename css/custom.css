@@ -23,6 +23,7 @@ div {
 }
 #fourth {
     min-height: 30%;
+    margin-bottom: -32px;
 }
 
 div#title {
@@ -155,5 +156,5 @@ table td {
 footer {
     position: relative;
     text-align: center;
-    top: -50px;
+    height: 32px;
 }
