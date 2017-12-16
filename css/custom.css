@@ -5,7 +5,7 @@ body, html, main {
 }
 
 div {
-/*    min-height: 100%;*/
+    /*    min-height: 100%;*/
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -56,22 +56,22 @@ img#profile {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-/*    height: 100%;*/
+    /*    height: 100%;*/
 }
 
 @media only screen and (max-width: 768px) { 
     img#profile {
-/*        height: 180px;*/
+        /*        height: 180px;*/
     }
     div#title {
         width: 100%;
         color: #FFEB3B;
     }
-    
+
     h1 {
-    font-size: 10vw;
+        font-size: 10vw;
     }
-    
+
     h4 {
         font-size: 5vw;
     }
@@ -112,21 +112,34 @@ img#profile {
     background-color: #CFD8DC;
 }
 
- img[alt="Henry's pic"] {
-   -webkit-filter: grayscale(60%);
-   -moz-filter: grayscale(60%);
-   filter: grayscale(60%);
-   transition: all 0.5s ease;
- }
+img[alt="Henry's pic"] {
+    -webkit-filter: grayscale(60%);
+    -moz-filter: grayscale(60%);
+    filter: grayscale(60%);
+    transition: all 0.5s ease;
+}
 
- img[alt="Henry's pic"]:hover {
-   -webkit-filter: grayscale(0%);
-   -moz-filter: grayscale(0%);
-   filter: grayscale(0%);
- }
+img[alt="Henry's pic"]:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+table {
+    width: 60%;
+    margin-left:auto; 
+    margin-right:auto;
+    border: none;
+    border-collapse: collapse;
+}
+
+table td {
+    width 30%;
+    text-align: center;
+}
 
 #contact a {
-    font-size: 4vw;
+    font-size: 40px;
     color: #757575;
 }
 
@@ -137,4 +150,10 @@ img#profile {
 
 #contact div {
     text-align: center;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    top: -50px;
 }
