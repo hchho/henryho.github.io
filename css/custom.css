@@ -15,7 +15,7 @@ div {
 }
 
 #second {
-    min-height: 70%;
+    min-height: 60%;
 }
 
 #third {
@@ -58,18 +58,23 @@ img#profile {
     /*    height: 100%;*/
 }
 
-table#projects td {
-    background-color: white;
-    color: #757575;
-    padding: 10px;
+div#projects {
     height: 100%;
+    margin: auto;
+    width: 70%;
 }
 
-table#projects {
-    border-spacing: 20px;
-    border-collapse: separate;
-    height: 100%;
+div#projects div {
+    background-color: white;
+    color: #757575;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 
 @media only screen and (max-width: 768px) { 
     img#profile {
@@ -91,9 +96,15 @@ table#projects {
     div#title {
         top: 20%;
     }
-    
+
     #first  {
         min-height: 70%;
+    }
+
+    div#projects div {
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 90%;
     }
 }
 
