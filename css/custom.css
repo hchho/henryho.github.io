@@ -43,7 +43,7 @@ h1 {
     font-size: 70px;
 }
 
-p {
+#about p {
     margin: 0 auto;
     width: 60%;
     text-align: center;
@@ -55,7 +55,6 @@ img#profile {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    /*    height: 100%;*/
 }
 
 div#projects {
@@ -73,6 +72,12 @@ div#projects div {
     width: 40%;
     margin-top: 10px;
     margin-bottom: 10px;
+    height: 180px;
+    overflow: auto;
+}
+
+div#projects p {
+    text-align: left;
 }
 
 
