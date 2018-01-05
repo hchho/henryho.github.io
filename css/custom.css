@@ -8,12 +8,16 @@ div {
     padding: 10px;
 }
 
-h1#title {
+#title h1,  div {
     /* text-align: center; */
     /* padding: -10px; */
     /* position: absolute; */
     top: 40%;
     font-size: 80px;
+}
+
+#title div {
+    font-size: 12px;
 }
 .cd-fixed-bg {
 	background-size: cover;
