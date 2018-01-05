@@ -28,15 +28,15 @@ div {
 }
 
 #fourth {
-/*    min-height: 5%;*/
+    min-height: 5%;
     /*    margin-bottom: -32px;*/
-    height: 80px;
 }
 
 div#title {
     width: 100%;
     position: absolute; 
     top: 40%;
+    color: #FFEB3B;
     text-align: center;
 }
 
@@ -133,11 +133,10 @@ div#projects p {
 }
 
 .cd-fixed-bg.cd-bg-1 {
-    background-color: #4ECDC4;
-    color: white;
+    background-color: #455A64;
 }
 .cd-fixed-bg.cd-bg-2 {
-    background-color: #FF6B6B;
+    background-color: #607D8B;
     color: white;
 }
 .cd-fixed-bg.cd-bg-3 {
@@ -152,7 +151,7 @@ div#projects p {
 }
 
 .cd-color-2 {
-    background-color: #556270;
+    background-color: #CFD8DC;
 }
 
 img[alt="Henry's pic"] {
@@ -183,17 +182,23 @@ table td {
 
 #contact a {
     font-size: 40px;
-    color: white;
-/*    height: 80px;*/
+    color: #757575;
 }
 
 #contact a:hover {
     text-decoration: none;
-    color: #4ECDC4;
+    color: #FFF;
 }
 
 #contact div {
     text-align: center;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+/*    height: 32px;*/
+    font-size: 12px;
 }
 
 .side-nav {
@@ -201,7 +206,7 @@ table td {
     height: 100%;
     left: 0px;
     width: 150px;
-    background-color: white;
+    background-color: #CFD8DC;
 }
 
 .side-nav ul {
@@ -211,6 +216,7 @@ table td {
     width: 100%;
     font-size: 20pt;
     padding-left: 0px;
+/*    margin-left: -20px;*/
 }
 
 .side-nav ul li {
@@ -218,28 +224,24 @@ table td {
 }
 
 .side-nav ul li:hover {
-    background-color: #C7F464;
-    color: white;
+    background-color: #607D8B;
 }
 
 .side-nav a {
     text-decoration: none;
-    color: #556270;
+    color: white;
     width: 150px;
 }
 
 .side-nav a:hover {
     color: white;
+    background-color: #607D8B;
 }
 
 
 .side-nav footer {
     bottom: 0px;
     position: fixed;
-    padding: 20px;
+    padding: 10px;
     width: 150px;
-    height: 80px;
-    background-color: #C7F464;
-    font-size: 12px;
-        text-align: center;
 }
