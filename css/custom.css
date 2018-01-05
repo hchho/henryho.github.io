@@ -24,7 +24,7 @@ div {
 }
 
 #third {
-    min-height: 60%;
+    min-height: 100%;
 }
 
 #fourth {
@@ -96,7 +96,6 @@ div#projects p {
     }
     div#title {
         width: 100%;
-        color: #FFEB3B;
     }
 
     h1 {
