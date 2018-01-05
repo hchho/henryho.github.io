@@ -4,6 +4,11 @@ body, html, main {
     color: #212121;
 }
 
+main {
+    position: relative;
+    margin-left: 150px;
+}
+
 div {
     /*    min-height: 100%;*/
     padding-top: 10px;
@@ -11,7 +16,7 @@ div {
 }
 
 #first  {
-    min-height: 100%;
+    min-height: 90%;
 }
 
 #second {
@@ -23,7 +28,7 @@ div {
 }
 
 #fourth {
-    min-height: 10%;
+    min-height: 5%;
     /*    margin-bottom: -32px;*/
 }
 
@@ -82,6 +87,10 @@ div#projects p {
 
 
 @media only screen and (max-width: 768px) { 
+    main {
+    position: relative;
+    margin-left: 0px;
+}
     img#profile {
         /*        height: 180px;*/
     }
@@ -132,9 +141,6 @@ div#projects p {
 }
 .cd-fixed-bg.cd-bg-3 {
     /*    background-image: url("../images/bg.jpeg");*/
-}
-.cd-fixed-bg.cd-bg-4 {
-    background-image: url("../images/bg.jpeg");
 }
 
 .cd-scrolling-bg {
@@ -191,6 +197,51 @@ table td {
 footer {
     position: relative;
     text-align: center;
-    height: 32px;
+/*    height: 32px;*/
     font-size: 12px;
+}
+
+.side-nav {
+    position:fixed;
+    height: 100%;
+    left: 0px;
+    width: 150px;
+    background-color: #CFD8DC;
+}
+
+.side-nav ul {
+    top: 20%;
+    position: fixed;
+    list-style: none;
+    width: 100%;
+    font-size: 20pt;
+    padding-left: 0px;
+/*    margin-left: -20px;*/
+}
+
+.side-nav ul li {
+    padding-left: 20px;
+}
+
+.side-nav ul li:hover {
+    background-color: #607D8B;
+}
+
+.side-nav a {
+    text-decoration: none;
+    color: white;
+    width: 150px;
+}
+
+.side-nav a:hover {
+    color: white;
+    background-color: #607D8B;
+}
+
+
+.side-nav footer {
+    bottom: 0px;
+    position: fixed;
+    padding: 10px;
+    width: 150px;
 }
