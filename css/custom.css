@@ -40,7 +40,7 @@ h1 {
 div#title {
     width: 100%;
     position: absolute; 
-    top: 35%;
+    /* top: 35%; */
     /* left: 40%; */
     text-align: center;
     /* animation */
@@ -144,6 +144,10 @@ div#projects p {
     }
 
     #first  {
+        min-height: 110%;
+    }
+
+    #second {
         min-height: 70%;
     }
 
@@ -293,6 +297,7 @@ table td {
     height: 400px;
     padding-right: 40px;
     padding-left: 40px;
+    text-align: center;
 /*    padding-top: 40px;*/
 }
 
