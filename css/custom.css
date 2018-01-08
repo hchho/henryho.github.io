@@ -118,15 +118,13 @@ div#projects p {
     text-align: left;
 }
 
-
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 1200px) { 
     main {
         position: relative;
         margin-left: 0px;
     }
-    img#profile {
-        /*        height: 180px;*/
-    }
+}
+@media only screen and (max-width: 768px) { 
     div#title {
         width: 100%;
     }
@@ -144,7 +142,8 @@ div#projects p {
     }
 
     #first  {
-        min-height: 110%;
+        min-height: 100%;
+        margin-bottom: 0px;
     }
 
     #second {
@@ -299,6 +298,12 @@ table td {
     padding-left: 40px;
     text-align: center;
 /*    padding-top: 40px;*/
+}
+
+.mySlides img {
+    /* min-width: 500px; */
+    display: block;
+    margin: auto;
 }
 
 div.slideshow-container div:first-child {
