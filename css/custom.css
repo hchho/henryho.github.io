@@ -118,7 +118,7 @@ div#projects p {
     text-align: left;
 }
 
-@media only screen and (max-width: 1200px) { 
+@media only screen and (max-width: 992px) { 
     main {
         position: relative;
         margin-left: 0px;
@@ -301,7 +301,8 @@ table td {
 }
 
 .mySlides img {
-    /* min-width: 500px; */
+    max-width: 60%;
+    padding: 20px;
     display: block;
     margin: auto;
 }

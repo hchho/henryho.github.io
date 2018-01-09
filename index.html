@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
     <script src="js/slideshow.js"></script>
     <script src="js/scrollfade.js"></script>
+    <script src="js/smoothscroll.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
@@ -15,8 +16,11 @@
 <body>
     <div class="side-nav hidden-sm hidden-xs">
         <ul>
+            <a href="#title">
+                <li>Home</li>
+            </a>
             <a href="#about">
-                <li>About</li>
+                <li>My Story</li>
             </a>
             <a href="#projects">
                 <li>Projects</li>
@@ -66,11 +70,19 @@
                     <div class="mySlides fade">
                         <h3>2010</h3>
                         <P>
-                            Began work as a student development assistant at UBC's Kinesiology department. I developed print and didgital content for faculty and students. I developed my first PHP app to retrieve and to log student reflections.
+                            Began work as a student development assistant at UBC's Kinesiology department. I developed print and didgital content for
+                            faculty and students. I developed my first PHP app to retrieve and to log student reflections.
                         </P>
-                        <a href="files/portfolio_sample.pdf">Sample pdf</a>
+                        <a href="files/portfolio_sample.pdf" target="_blank">Sample pdf</a>
+                        <img src="images/ubc_kin.png" class="img-responsive" alt="UBC Kinesiology logo"/>
                     </div>
-
+                    <div class="mySlides fade">
+                        <h3>2013</h3>
+                        <P>
+                            I started working at Collingwood Secondary School. I helped create their junior robotics curriculum and mentored their robotics team. The highlight was bringing the team to Kentucky for the VEX Robotics World Championships.
+                        </P>
+                        <img src="images/Collingwood_Shield.png" class="img-responsive" alt="Collingwood Shield" />
+                    </div>
                     <div class="mySlides fade">
                         <h3>Now</h3>
                         <P>
@@ -114,7 +126,6 @@
                     <P>
                         A PHP web application developed during BCIT’s Co-op Hackathon that calculates a BCIT CST student’s GPA.
                     </P>
-                    <embed src="files/portfolio_sample.pdf" width="300" height="300" type='application/pdf'/>
                     <a href="https://bcithackathonggroup2.azurewebsites.net/" target="_blank">Visit website</a>
                 </div>
             </div>
