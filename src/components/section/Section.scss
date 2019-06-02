@@ -1,0 +1,19 @@
+article {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+section {
+  div.article-row-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  div.article-column-container {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+}

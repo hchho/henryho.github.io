@@ -1,0 +1,18 @@
+@import "styles/constants.scss";
+
+header {
+  align-items: center;
+  flex-direction: column;
+  background-color: $primary;
+  
+  h1 {
+    color: $default-white;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto; /* ie8 */
+    border-radius: 50%;
+  }
+}
